@@ -1,9 +1,43 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Website!!</title>
+    <style>
+      p {
+        color: blue;
+      }
+      .myClass {
+        color: red;
+      }
+      #someID {
+        color: maroon;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="myClass">Big header!</h1>
 
-<p>blahblahblah</p>
+    <p>Hello my name is Mely</p>
 
-<h1>This is my thing</hl>
+    
+    <a href="anotherFile.html">This should take me to another page...</a>
 
-<h2>A smaller header</h2>
+    <ul style="color: blue">
+     <li>Random thing</li>
+     <li>something</li>
+     <li>something else</li>
+    </ul>
 
-<a href="https://google.com">Visit this website</a>
+    <ol>
+      <li>First thing</li>
+      <li>Second thing</li>
+      <li>Third thing</li>
+    </ol>
+    <p>Be not afraid of greatness.<br>Some are born great,<br>some achieve greatness,<br>and others have greatness thrust upon them.</p>
+    <img src="https://www.economist.com/img/b/595/290/90/sites/default/files/images/2016/12/articles/main/20161224_xmc701.jpg" alt="wow the image didn't work" width=100 height=100>
+  </body>
+</html>
+    <p>Be not afraid of greatness.<br>Some are born great,<br>some achieve greatness,<br>and others have greatness thrust upon them.</p>
+    <img src="https://www.economist.com/img/b/595/290/90/sites/default/files/images/2016/12/articles/main/20161224_xmc701.jpg" alt="wow the image didn't work" width=100 height=100>
+  </body>
+</html>
