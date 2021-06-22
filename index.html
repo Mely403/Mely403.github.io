@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>My First Website!!</title>
@@ -34,7 +34,11 @@
       }
       
       function changeFont() {
-        document.getElementById("headingID").style.fontFamily = "Courier New";
+        if (document.getElementById("headingID").style.fontFamily == "Courier New") {
+          document.getElementById("headingID").style.fontFamily = "Trattatello";
+        } else {
+          document.getElementById("headingID").style.fontFamily = "Courier New";
+        }
       }
     </script>
   </head>
